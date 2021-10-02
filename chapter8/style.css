@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 50px auto;
+  width: 960px;
+  list-style: none;
+}
+
+.list-items {
+  width: 960px;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.list-items:nth-child(odd) {
+  background-color: gainsboro;
+}
+
+main {
+  margin: 0 auto 50px auto;
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.colorbox {
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  background-color: yellow;
+}
+
+.colorbox:nth-child(3 6 9) {
+  margin-right: 0:
+}
